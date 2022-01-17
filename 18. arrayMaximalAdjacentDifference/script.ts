@@ -14,5 +14,5 @@ function arrayMaxAdjDifference(inputArray: number[]):number{
     return maximumDifference
 }
 
-console.log(arrayMaxAdjDifference([2, 4, 1, 0]))
+
 
