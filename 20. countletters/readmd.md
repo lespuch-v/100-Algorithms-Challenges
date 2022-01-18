@@ -1,0 +1,1 @@
+Count the numbers of letters in the string
