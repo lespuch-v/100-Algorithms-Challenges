@@ -1,0 +1,1 @@
+// Write a JavaScript program to replace all the numbers with a specified number of a given array of integers.
