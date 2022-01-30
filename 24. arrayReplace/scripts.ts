@@ -20,3 +20,17 @@ function arrayReplace(
 
 console.log(arrayReplace(inputArray, 1, 3));
 console.log(arrayReplace(inputArray, 2, 99));
+
+
+// How professional would do it!
+
+function arraReplace(inputArr: number[], elementToReplace: number, substitutionElem: number):number[]{
+    inputArr.forEach((element, index) => {
+        if(element === elementToReplace){
+            inputArr[index] = substitutionElem
+        }
+    })
+    return inputArr
+}
+
+console.log(arraReplace([1,2,3], 1, 9))
