@@ -17,3 +17,11 @@ console.log(characterParity('3'));
 console.log(characterParity('2'));
 console.log(characterParity('l'));
 console.log(characterParity('p'));
+
+
+// Proffesional Solution
+export function characterParity2(symbol: string): string {
+    const justResult = parseInt(symbol)
+
+    return isNaN(justResult) ? "not a number" : justResult %2 == 0 ? "even" : "odd"
+}
