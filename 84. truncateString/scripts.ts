@@ -1,5 +1,8 @@
 const truncateString =(str:string, num:number):string => {
-    let newStr = str.slice(0,num)
-    return newStr + '...'
+    if(str.length <= num) {
+        return str
+    } else {
+        return str.slice(0, num) + "..."
+    }
 }
-console.log(truncateString("Ahhhhoooooj, jak se mas",3))
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8))
