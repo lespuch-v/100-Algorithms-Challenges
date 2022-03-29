@@ -1,4 +1,4 @@
-const elementSwap = (arr1, arr2, n) => {
+const elementSwap = (arr1:number[], arr2:number, n:number) => {
     let localCopy = arr2.slice();
     console.log(localCopy);
     for (let i = 0; i < arr1.length; i++) {
